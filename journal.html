@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Journal</title>
+  <link rel="stylesheet" href="journal.css">
+</head>
+<body>
+
+  <h1> Daily Journal 📝</h1>
+  <p>How are you feeling today? Write a few words below:</p>
+
+  <textarea id="journalEntry" placeholder="Write about your day..."></textarea><br>
+  
+  <button id="submitBtn">Submit Entry</button>
+
+  <div id="message"></div>
+  <div id="points"></div>
+
+  <div id="entries">
+    <h3>📝 Previous Entries</h3>
+    <div id="entryList"></div>
+    <button id="clearBtn">Clear All Entries</button>
+  </div>
+
+  <script src="journal.js"></script>
+</body>
+</html>
